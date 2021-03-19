@@ -1,0 +1,46 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    background-color: magenta;
+    width: 100%;
+    background-image: linear-gradient(to right, red,rgb(255, 0, 119),rgb(255, 0, 242),rgb(204, 0, 255),blue);
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+    background-color: mediumvioletred;
+}
+
+h4{
+    background-color: black;
+    line-height: 2;
+    margin: 0px;
+    color: blanchedalmond;
+}
+
+.modal-dialog{
+    width: 60%;
+}
+
+ol{
+    text-align: left;
+}
+
+canvas{
+    border: 10px solid;
+    animation-name: exam;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exam{
+    from {border-color:lime;}
+    to {border-color: cyan;}
+}
